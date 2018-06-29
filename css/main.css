@@ -16,12 +16,13 @@
 
 header {
 	background-color: #2C3E50;
-	height: 10px;
 	padding: 30px 15px;
 	font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 17px;
+   	cursor: pointer;
+
 }
 
 .flex-container {
@@ -30,7 +31,13 @@ header {
 	color: white;
 }
 
+.text-1 {
+    font-size: 30px;
+
+}
+
 .banner{
+	text-align: center;
 	background-color: #18bc9c;
 	padding: 30px 15px;
 	color: #fff;
@@ -42,5 +49,28 @@ header {
 	font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
+    color: #2C3E50;
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
 
+}
+
+.group-1, .group-2 {
+	width: 300px;
+	height: auto;
+	display: inline;
+}
+.img {
+	width: 200px;
+	height: autopx;
+}
+
+button {
+
+	font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 4px;
+	cursor: pointer;
 }
