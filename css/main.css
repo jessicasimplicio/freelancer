@@ -22,7 +22,7 @@ html, body {
 header {
 	background-color: #2C3E50;
 	padding: 20px 15px;
-	font-family: 'Monserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 17px;
    	cursor: pointer;
@@ -37,7 +37,7 @@ header {
 
 .text-1-menu {
     font-size: 27px;
-    font-weight: 700;
+    font-weight: 800;
     display: inline-flex;
 	align-items: center;
 }
@@ -69,7 +69,7 @@ header {
 
 /* Portfolio */
 .portfolio {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     color: #2C3E50;
@@ -107,7 +107,7 @@ figure {
 
 .about h3 {
 	padding: 30px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	text-transform: uppercase;
 
