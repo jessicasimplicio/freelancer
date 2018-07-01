@@ -56,17 +56,34 @@ nav {
 
 /* Banner */
 .banner{
+	height: 571px;
 	text-align: center;
 	background-color: #18bc9c;
-	padding: 30px 15px;
+	/*padding: 30px 15px;*/
 	color: #fff;
 	font-family: 'Lato', sans-serif;
+
 }
 
 .title-page{
     text-transform: uppercase;
-    font-weight: 800;
-    font-size: 80px;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+  	top: 83px;
+}
+
+.subtitles-page{
+	position: relative;
+  	top: 83px;
+}
+
+.img-relative {
+  position: relative;
+  top: 83px;
+  width: 230px;
+  height: 230px;
 }
 /* Fim banner */
 
