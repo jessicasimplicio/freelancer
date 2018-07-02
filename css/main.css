@@ -286,8 +286,8 @@ footer {
 
 .footer-container1 p{
 	margin: 0px auto;
-	padding: 20px 0px 0px 0px;
-	font-size: 20px;
+	padding: 32px 0px 0px 0px;
+	font-size: 18px;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: white;
@@ -302,20 +302,24 @@ footer {
 	color: white
 }
 .footer-container1 div {
-	width: 300px;
+	width: 310px;
 	height: 150px;
-	margin: 0 20px;
+	margin: 0 18px;
 	text-align: center;
 }
 
 .footer-container2 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
+	font-family: 'Lato', sans-serif;
 	font-weight: 600;
 	color: white;
 	text-align: center;
 }
 
-.font-container2 p {
+.footer-container2 p {
 	margin: 0;
+	font-size: 15px;
+}
+
+span {
+	color: #18bc9c;
 }
