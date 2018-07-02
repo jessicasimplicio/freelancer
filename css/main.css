@@ -127,11 +127,12 @@ nav {
 	background-color: #18bc9c;
 	text-align: center;
 	color: #FFFFFF;
+	height: 522px;
 }
 
 .container-about{
 	margin: 0 auto;
-	padding: 90px 0px;
+	padding: 90px 0px 0px 0px;
 	width: 1200px;
 }
 
@@ -168,6 +169,7 @@ nav {
 button {
 	width: 190px;
 	font-size: 16px;
+	font-family: 'Lato', sans-serif;
 	padding: 10px;
     margin: 4px 2px;
     background-color: #18bc9c;
@@ -179,11 +181,91 @@ button {
 /*Fim About */
 
 .contact {
-	text-align: center;
-	 
+	text-align: center;	 
+}
+
+.container-contact {
+	margin: 0px auto;
+	padding: 88px;
+}
+
+.container-contact h3{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #2C3E50;
+}
+.star-contact {
+	height: 80px;
+	padding: 0px;
+}
+
+/* Contact me */
+.contact{
+	height: 793px;
+}
+.form, .message{
+	height: 80px;
+	width: 700px;
+}
+
+form {
+	height: 426px;
+	margin: 0 auto 0 auto;
+}
+.form input{
+	height: 40px;
+	width: 700px;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.message input{
+	height: 150px;
+	width: 700px;
+	border: none;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 }
 
 .div-form{
+	width: 700px;
+	margin: 0 auto;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 700px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+
+#send {
+	width: 75px;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 800;
+	padding: 10px;
+    margin: 4px 2px;
+    background-color: #18bc9c;
+    border: solid white;
+    border-radius: 8px;
+	cursor: pointer;
+	color: white;
 
 }
 
@@ -192,8 +274,48 @@ button {
 
 footer {
 	background-color: #2C3E50;
+	height: 308px;
+}
+.footer-container1{
+	width: 80%;
+	margin: 0px auto;
+	padding: 42px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-container1 p{
+	margin: 0px auto;
+	padding: 20px 0px 0px 0px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+.footer-container1 h4{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: white
+}
+.footer-container1 div {
+	width: 300px;
+	height: 150px;
+	margin: 0 20px;
+	text-align: center;
 }
 
 .footer-container2 {
-	background-color: #1a252f;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+.font-container2 p {
+	margin: 0;
 }
