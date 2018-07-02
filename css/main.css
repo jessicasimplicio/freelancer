@@ -1,19 +1,3 @@
-/*
- * Estilos de tu proyecto
- */
-
- /* * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-} */
-
 html, body {
 	padding: 0;
 	margin: 0;
@@ -52,9 +36,6 @@ nav {
 	align-items: center;
 }
 
-/* Fim Header */
-
-/* Banner */
 .banner{
 	height: 631px;
 	text-align: center;
@@ -88,9 +69,7 @@ nav {
   width: 230px;
   height: 230px;
 }
-/* Fim banner */
 
-/* Portfolio */
 .portfolio {
     text-align: center;
     height: 700px;
@@ -119,9 +98,7 @@ nav {
 	width: 317px;
 	height: 227px;
 }
-/* Fim portfolio */
 
-/* About */
 .about {
 
 	background-color: #18bc9c;
@@ -143,7 +120,6 @@ nav {
 	font-family: 'Lato', sans-serif;
 	display: inline-flex;
 	justify-content: space-between;
-
 }
 
 .about h3 {
@@ -178,7 +154,6 @@ button {
 	cursor: pointer;
 	color: white;
 }
-/*Fim About */
 
 .contact {
 	text-align: center;	 
@@ -203,7 +178,6 @@ button {
 	padding: 0px;
 }
 
-/* Contact me */
 .contact{
 	height: 793px;
 }
@@ -239,7 +213,6 @@ form {
 .div-form{
 	width: 700px;
 	margin: 0 auto;
-
 }
 
 hr {
@@ -268,9 +241,6 @@ hr {
 	color: white;
 
 }
-
-
-/*Footer */
 
 footer {
 	background-color: #2C3E50;
