@@ -93,7 +93,7 @@ nav {
 /* Portfolio */
 .portfolio {
     text-align: center;
-    
+    height: 700px;
 }
 
 .portfolio-container {
@@ -114,7 +114,6 @@ nav {
 	padding: 0px;
 }
 
-
 .img {
 	margin: 0px 11px 22px 11px;
 	width: 317px;
@@ -130,8 +129,14 @@ nav {
 	color: #FFFFFF;
 }
 
-.div-about {
-	width: 600px;
+.container-about{
+	margin: 0 auto;
+	padding: 90px 0px;
+	width: 1200px;
+}
+
+.about-paragraphs {
+	width: 652px;
 	text-align: left;
 	color: #fff;
 	font-family: 'Lato', sans-serif;
@@ -141,25 +146,33 @@ nav {
 }
 
 .about h3 {
-	padding: 30px;
+	padding: 0px;
+	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	text-transform: uppercase;
+	font-weight: 900;
 }
 
-.div-about div {
-	width: 250px; 
+.about-paragraphs div {
+	width: 300px; 
 	height: 200px;
-
+	font-size: 18px;
+	line-height: 26px;
+}
+.star-about {
+	height: 40px;
+	padding: 0px;
 }
 
 button {
+	width: 190px;
 	font-size: 16px;
 	padding: 10px;
     margin: 4px 2px;
     background-color: #18bc9c;
     border: solid white;
-    border-radius: 4px;
+    border-radius: 6px;
 	cursor: pointer;
 	color: white;
 }
